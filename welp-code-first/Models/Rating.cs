@@ -10,7 +10,7 @@ namespace welp_code_first.Models
         public int RatingID { get; set; }
         public int UserID { get; set; }
         public int BusinessID { get; set; }
-        public double StarReview { get; set; }
+        public short? StarReview { get; set; }
         public string TextReview { get; set; }
 
 

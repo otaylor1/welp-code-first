@@ -9,9 +9,9 @@ namespace welp_code_first.Models
 {
     public class welp_code_firstContext : DbContext
     {
-        public DbSet<Business> Businesses { get; set; }
-        public DbSet<User> Users { get; set; }
         public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Business> Businesses { get; set; }
         public DbSet<BusinessType> BusinessTypes { get; set; }
+        public DbSet<User> Users { get; set; }   
     }
 }

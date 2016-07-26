@@ -1,16 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+
 
 namespace welp_code_first.Models
 {
     public class User
     {
+        //Properties
         public int UserID { get; set; }
+        [MaxLength(50)]
         public string Username { get; set; }
+        [MaxLength(50)]
         public string Password { get; set; }
+        [MaxLength(100)]
         public string Email { get; set; }
+        [MaxLength(50)]
         public string Location { get; set; }
 
 
